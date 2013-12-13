@@ -8,6 +8,9 @@ de:
   gift_code_not_found: 'Der angegebene Gutscheincode existiert nicht. Bitte versuch es noch mal.'
   is_gift_card: 'ist ein Gutschein'
   new_gift_card: 'Neuer Gutschein'
+  order_mailer:
+    gift_card_email:
+      subject: Ihr Gutschein
   recipient_name: 'Name des Empfängers'
   successfully_created_gift_card: 'Du hast erfolgreich einen Gutschein erstellt.'
   transactions: 'Transaktionen'
