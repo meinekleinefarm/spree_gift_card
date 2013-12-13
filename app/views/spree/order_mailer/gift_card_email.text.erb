@@ -1,0 +1,11 @@
+Hallo <%= @order.billing_address.firstname %>,
+
+danke für den Kauf des Gutschweins im Wert von <%= number_to_currency @gift_card.price %>. Danke auch, dass Du dadurch zur Verbreitung eines neuen BeWurstseins beiträgst: Weniger Fleisch, mehr Respekt!
+
+Im Anhang findest Du das PDF mit einem Code (<%= @gift_card.code %>), den der Beschenkte einsetzen kann, um lecker Wurst oder Fleisch mit Gesicht zu kaufen.
+
+Das PDF kannst Du auch auf einem DIN A4 Blatt ausdrucken, in der Mitte zu einer Grußkarte falten und noch ein paar persönliche Zeilen reinschreiben.
+
+Oink
+
+Dennis und die anderen Schweine von MeinekleineFarm.org
