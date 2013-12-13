@@ -95,7 +95,7 @@ module Spree
 #          pdf.stroke_color 'FF0000'
 #          pdf.stroke_bounds
           pdf.font "Yanone Kaffeesatz", :size => 136, :style => :bold do
-            pdf.text number_to_currency(15, :precision => 0 ),
+            pdf.text number_to_currency(price, :precision => 0 ),
               :rotate => 8,
               :rotate_around => :center,
               :overflow => :shrink_to_fit,
