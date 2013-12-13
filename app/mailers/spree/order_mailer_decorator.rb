@@ -5,6 +5,6 @@ Spree::OrderMailer.class_eval do
     subject = "#{Spree::Config[:site_name]} #{t('order_mailer.gift_card_email.subject')}"
     @gift_card.update_attribute(:sent_at, Time.now)
     attachments['Gutschwein.pdf'] = File.read(@gift_card.attachment)
-    mail(:to => @order.email, :subject => subject)
+    mail(:to => order.email, :from => from_address, :subject => subject)
   end
 end

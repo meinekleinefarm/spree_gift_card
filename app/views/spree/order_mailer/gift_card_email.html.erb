@@ -6,7 +6,7 @@
         <h1 class="headline_variation_2" style="padding-left:20px;padding-bottom:0;margin-bottom:5px;margin-top:5px;" >Oink: Dein Gutschwein!</h1>
         <div style="padding-left:20px;padding-right:20px;">
           <p>Hallo <%= @order.billing_address.firstname %>,</p>
-          <p>danke für den Kauf des Gutschweins im Wert von <%= number_to_currency @gift_card.price %>, das ist super für die Verbreitung eines neuen BeWurstseins: weniger Fleisch, mehr Respekt!</p>
+          <p>danke für den Kauf des Gutschweins im Wert von <%= number_to_currency @gift_card.price %>. Danke auch, dass Du dadurch zur Verbreitung eines neuen BeWurstseins beiträgst: Weniger Fleisch, mehr Respekt!</p>
           <p>Im Anhang findest Du das PDF mit einem Code (<%= @gift_card.code %>), den der Beschenkte einsetzen kann, um lecker Wurst oder Fleisch mit Gesicht zu kaufen.</p>
           <p>Das PDF kannst Du auch auf einem DIN A4 Blatt ausdrucken, in der Mitte zu einer Grußkarte falten und noch ein paar persönliche Zeilen reinschreiben.</p>
           <p>Oink</p>
